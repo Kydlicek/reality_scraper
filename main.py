@@ -4,6 +4,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
+#kdyby neslapalo tak python -m pip install -r requirements.txt
+#stahni si chromedriver.exe a dej ho do slozky C:\Program Files (x86)\chromedriver.exe :D
 s = Service("C:\Program Files (x86)\chromedriver.exe")
 
 chromeOptions = Options()
